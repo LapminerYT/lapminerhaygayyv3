@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Melon Client">
+  <meta name="description" content="A Minecraft PVP Client">
+  <meta name="author" content="ElonMuskMelon AND Trofix">
+  <meta property="og:url" content="https://melonclient.glitch.me">
+  <meta property="og:title" content="Melon Client">
+  <meta name="og:description" content="A Minecraft PVP Client">
+  <meta property="og:image" content="https://cdn.glitch.com/0cc800e9-bbdd-4fa1-b8e0-f6c112dfb2a1%2F7e54d696-8880-4286-af9a-0ef4079d65bd.image.png?v=1617039701896">
+  <meta name="language" content="English">
+  <meta name="og:site_name" content="Melon Client">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Melon Client</title>
+  <link rel="shortcut icon" href="https://cdn.glitch.com/0cc800e9-bbdd-4fa1-b8e0-f6c112dfb2a1%2F7e54d696-8880-4286-af9a-0ef4079d65bd.image.png?v=1617039701896" type="image/webp">
+  <link rel="icon" href="https://cdn.glitch.com/0cc800e9-bbdd-4fa1-b8e0-f6c112dfb2a1%2F7e54d696-8880-4286-af9a-0ef4079d65bd.image.png?v=1617039701896" type="image/x-icon">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+  <link href="/assets/css/main.css" rel="stylesheet">
+  <link href="/assets/css/syntax.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/9bdb7e3cf7.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/countup@1.8.2/dist/countUp.min.js"></script>
+  <script src="assets/js/main.js"></script>
+ </head><!--Website is made by Trofix--> <!--Don't judge poor code-->
+ <body>
+  <div class="discontinued">
+   <h2>Melon Client is a discontinued project due to management problems and this website will remain here for no purpose.</h2><button id="closebtn"> X </button>
+  </div>
+  <nav class="navbar navbar-dark navbar-expand-md">
+   <div class="container">
+    <!-- Nav --> <a class="col navbar-brand" href="/"> <img class="MelonLogo" src="https://cdn.glitch.com/0cc800e9-bbdd-4fa1-b8e0-f6c112dfb2a1%2F535773f2-345b-4caf-b6e6-935e955ad454.image.png?v=1617039562146"> <img class="MelonTxt" src="https://cdn.glitch.com/0cc800e9-bbdd-4fa1-b8e0-f6c112dfb2a1%2Fa815dbfe-2f49-4cd6-8322-fce6c0e2497d.image.png?v=1615374488341"> </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <!-- Right Buttons -->
+    <div id="nav_links" class="col-12 d-none d-md-block" text-align: center;>
+     <!-- Home Page --> <a id="home_button" type="button" class="py-3 btn active" href="/">Home</a> <!-- Discord Page --> <a id="discord_button" type="button" class="py-3 btn" href="https://discord.gg/65qquwArcShttps://discord.gg/65qquwArcS">Discord</a> <!-- Download Page --> <a id="download_button" type="button" class="py-3 btn" href="/download.html">Download</a> <!-- FAQ Page --> <a id="faq_button" type="button" class="py-3 btn" href="/faq.html">FAQ</a> <!-- Store --> <a id="store_button" type="button" class="p-3 btn" href="/store.html">Store</a>
+    </div>
+    <div class="col d-none d-md-block ml-0 pr-0" style="text-align: right;">
+     <!-- Space -->
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNav" style="flex-grow: unset">
+     <ul class="navbar-nav d-md-none text-center">
+      <li class="nav-item m-3"><!-- Home Page --> <a id="home_link" style="font-size: 4vh; text-decoration: none; color: white;" type="nav-link active" href="/">HOME</a></li><!-- Discord Page -->
+      <li class="nav-item m-3"><a id="discord_link" style="font-size: 4vh; text-decoration: none; color: white;" type="nav-link" href="https://discord.gg/65qquwArcS">DISCORD</a></li><!-- Download Page -->
+      <li class="nav-item m-3"><a id="download_link" style="font-size: 4vh; text-decoration: none; color: white;" type="nav-link" href="/download.html">DOWNLOAD</a></li><!-- FAQ Page -->
+      <li class="nav-item m-3"><a id="faq_link" style="font-size: 4vh; text-decoration: none; color: white;" type="nav-link" href="/faq.html">FAQ</a></li><!-- Store Page -->
+      <li class="nav-item m-3"><a style="font-size: 4vh; text-decoration: none; color: white;" class="nav-link green-button" href="/store"> <i class="fas fa-shopping-cart mr-1"></i> Store </a></li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div style="min-height: calc(100vh - 121px);">
+   <div id="home-container" class="fix-bg">
+    <div style="min-height: 90vh; justify-content: space-between;" class="d-flex container flex-column align-items-center py-5">
+     <div></div>
+     <div id="home-title">
+      <h1 style="position: relative; top: -6vh; font-size: 25px; font-family: UniSans; filter: brightness(120%);" class="animated zoomIn">WHY GET <greenlight>
+        MELON
+       </greenlight> CLIENT ?</h1>
+     </div>
+     <center>
+      <div class="row" style="width: 100%">
+       <div id="features" class="text-md-left" style="word-break: keep-all; text-align: center; font-size: 25px; font-family: UniSans; filter: brightness(120%);">
+        <div class="animated fadeInRight delay-1s">
+         <h2 style="position: relative; top: -4vh;"><greenlight>
+           MELON
+          </greenlight> CLIENT WILL ALWAYS BE <greenlight>
+           FREE
+          </greenlight>...</h2>
+         <h5 style="position: relative; top: -3vh;">NOT EVERYONE WANTS TO <greenlight>
+           SPEND
+          </greenlight> THEIR <greenlight>
+           COLLEGE LOAN
+          </greenlight> ON A PVP CLIENT</h5>
+         <br>
+         <br>
+         <h2 style="position: relative; top: -4vh;"><greenlight>
+           MELON
+          </greenlight> OFFERS A UNIQUE <greenlight>
+           FPS BOOST
+          </greenlight>...</h2>
+         <h5 style="position: relative; top: -3vh;">NOT EVERYONE HAS A NASA <greenlight>
+           SUPER COMPUTER
+          </greenlight> TO RUN A <greenlight>
+           BLOCKY GAME
+          </greenlight></h5>
+         <br>
+         <br>
+         <h2 style="position: relative; top: -4vh;"><greenlight>
+           EXCLUSIVE
+          </greenlight> GUI STYLE...</h2>
+         <h5 style="position: relative; top: -3vh;">A <greenlight>
+           UNIQUE
+          </greenlight> NEON <greenlight>
+           GLOW
+          </greenlight> MINIMALIST THEME</h5>
+        </div>
+       </div>
+      </div>
+     </center><a id="download-main" href="/download.html" class="btn btn-lg animated fadeIn delay-3s" style="color: white; background-color: #17BF63;"> <i class="fas fa-download mr-1"></i> Download </a>
+     <div></div><a href="#down" class="animated fadeIn delay-4s"> <img src="https://cdn.glitch.com/0cc800e9-bbdd-4fa1-b8e0-f6c112dfb2a1%2F570c89e0-8979-42c3-822e-246177f49cf9.image.png?v=1617037256360"> </a>
+    </div>
+    <div id="down" class="container py-5">
+     <div class="row">
+      <div class="col-12 col-md-4 py-3 my-auto pr-3"></div>
+      <div class="col-12 col-md-4 py-3 my-auto text-center">
+       <center>
+        <iframe width="560" height="315" class="trailer btn btn-lg animated fadeIn delay-3s" src="https://www.youtube.com/embed/_WtzBCr-SuI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </center>
+       <h4>Melon Client</h4>
+       <h6>A Minecraft PVP Client</h6>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+  <footer class="page-footer glow" id="footer">
+   <div class="container footer-contents">
+    <div class="row py-1">
+     <!-- Left -->
+     <div id="footer-left" class="col-4 my-auto">
+      <a href="#"> </a> Melon Client
+     </div><!-- Middle -->
+     <div id="footer-middle" class="col-4 my-auto text-center">
+      <a href="https://twitter.com/ElonMuskMelon1" class="px-3"> <i class="fab fa-twitter fa-lg"></i> </a> <a href="https://discord.gg/HKJtDhrsrr" class="px-3"> <i class="fab fa-discord fa-lg"></i> </a>
+     </div>
+     <div id="footer-right">
+      <a href="https://trofix.me/">Made by Trofix</a>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script>
+const closebtn = document.getElementById("closebtn")
+closebtn.addEventListener ("click", function() {
+  this.parentNode.remove()
+});
+</script>
+ </body>
+</html>
