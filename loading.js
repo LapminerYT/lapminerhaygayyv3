@@ -4,7 +4,7 @@
 
 var timeLimit = 10000;
 window.addEventListener("load", function() {
-	window.location.href = "/vn/index.html";
+	window.location.href = "https://lapminer.lapminerstudio.repl.co";
 });
 
 var errorTimer = setTimeout(function() {
